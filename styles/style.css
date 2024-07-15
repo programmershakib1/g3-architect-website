@@ -177,6 +177,16 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer section styles */
+.footer-section{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(255, 244, 231);
+    justify-content: center;
+    align-items: center;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -204,6 +214,9 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer-section{
+        text-align: center;
     }
 }
 /* medium size device */
